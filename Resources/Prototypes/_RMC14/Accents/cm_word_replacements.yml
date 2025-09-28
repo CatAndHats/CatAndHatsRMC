@@ -59,6 +59,9 @@
     cm-chatsan-word-alamo: cm-chatsan-replacement-alamo
     cm-chatsan-word-normandy: cm-chatsan-replacement-normandy
     cm-chatsan-word-almayer: cm-chatsan-replacement-almayer
+    rmc-chatsan-word-parachute: rmc-chatsan-replacement-parachute
+    rmc-chatsan-word-parachutes: rmc-chatsan-replacement-parachute
+    rmc-chatsan-word-parachuting: rmc-chatsan-replacement-parachuting
     cm-chatsan-word-ob: cm-chatsan-replacement-ob
     cm-chatsan-word-orbital: cm-chatsan-replacement-orbital
     cm-chatsan-word-orbital-bomb: cm-chatsan-replacement-orbital-bomb
@@ -134,6 +137,7 @@
     cm-chatsan-word-fish: cm-chatsan-replacement-fish
     cm-chatsan-word-laser: cm-chatsan-replacement-laser
     cm-chatsan-word-lazer: cm-chatsan-replacement-lazer
+    rmc-chatsan-word-cannon: rmc-chatsan-replacement-cannon
     cm-chatsan-word-flamer: cm-chatsan-replacement-flamer
     cm-chatsan-word-flamethrower: cm-chatsan-replacement-flamethrower
     cm-chatsan-word-sadar: cm-chatsan-replacement-sadar
@@ -147,11 +151,20 @@
     cm-chatsan-word-ws: cm-chatsan-replacement-ws
     cm-chatsan-word-spec: cm-chatsan-replacement-spec
     cm-chatsan-word-cas: cm-chatsan-replacement-cas
+    rmc-chatsan-word-missile: cm-chatsan-replacement-cas
     cm-chatsan-word-sensors: cm-chatsan-replacement-sensors
     cm-chatsan-word-sensor-tower: cm-chatsan-replacement-sensor-tower
     cm-chatsan-word-comms: cm-chatsan-replacement-comms
     cm-chatsan-word-tcomms: cm-chatsan-replacement-tcomms
     cm-chatsan-word-communications-tower: cm-chatsan-replacement-communications-tower
+    rmc-chatsan-word-telephone: rmc-chatsan-replacement-telephone
+    cm-chatsan-word-radio: rmc-chatsan-replacement-telephone
+    rmc-chatsan-word-rto: rmc-chatsan-replacement-rto
+    rmc-chatsan-word-radio-telephone-pack: rmc-chatsan-replacement-rto
+    rmc-chatsan-word-pipe: rmc-chatsan-replacement-pipe
+    rmc-chatsan-word-gas-pipe: rmc-chatsan-replacement-pipe
+    rmc-chatsan-word-vent: rmc-chatsan-replacement-vent
+    rmc-chatsan-word-air-scrubber: rmc-chatsan-replacement-vent
     cm-chatsan-word-smart-gun: cm-chatsan-replacement-smart-gun
     cm-chatsan-word-smartgun: cm-chatsan-replacement-smartgun
     cm-chatsan-word-smart-gunner: cm-chatsan-replacement-smart-gunner
@@ -164,7 +177,9 @@
     cm-chatsan-word-squad: cm-chatsan-replacement-squad
     cm-chatsan-word-squads: cm-chatsan-replacement-squads
     cm-chatsan-word-sg: cm-chatsan-replacement-sg
+    rmc-chatsan-word-sgo: rmc-chatsan-replacement-sgo
     cm-chatsan-word-sgs: cm-chatsan-replacement-sgs
+    rmc-chatsan-word-sgos: rmc-chatsan-replacement-sgos
     cm-chatsan-word-flares: cm-chatsan-replacement-flares
     cm-chatsan-word-nade: cm-chatsan-replacement-nade
     cm-chatsan-word-nades: cm-chatsan-replacement-nades
@@ -175,9 +190,16 @@
     cm-chatsan-word-surv: cm-chatsan-replacement-surv
     cm-chatsan-word-survs: cm-chatsan-replacement-survs
     cm-chatsan-word-bro: cm-chatsan-replacement-bro
-    cm-chatsan-word-bruh: cm-chatsan-replacement-bruh
-    cm-chatsan-word-bvro: cm-chatsan-replacement-bvro
-    cm-chatsan-word-xro: cm-chatsan-replacement-xro
+    rmc-chatsan-word-brother: cm-chatsan-replacement-bro
+    cm-chatsan-word-bruh: cm-chatsan-replacement-bro
+    rmc-chatsan-word-brah: cm-chatsan-replacement-bro
+    cm-chatsan-word-bvro: cm-chatsan-replacement-bro
+    cm-chatsan-word-xro: cm-chatsan-replacement-bro
+    rmc-chatsan-word-bros: rmc-chatsan-replacement-bros
+    rmc-chatsan-word-brothers: rmc-chatsan-replacement-bros
+    rmc-chatsan-word-brahs: rmc-chatsan-replacement-bros
+    rmc-chatsan-word-bvros: rmc-chatsan-replacement-bros
+    rmc-chatsan-word-xros: rmc-chatsan-replacement-bros
     cm-chatsan-word-naur: cm-chatsan-replacement-naur
     cm-chatsan-word-dancer: cm-chatsan-replacement-dancer
     cm-chatsan-word-larba: cm-chatsan-replacement-larba
@@ -237,6 +259,7 @@
     cm-chatsan-word-injectors: cm-chatsan-replacement-injectors
     cm-chatsan-word-autoinjectors: cm-chatsan-replacement-injectors
     cm-chatsan-word-bandage: cm-chatsan-replacement-bandage
+    rmc-chatsan-word-gauze: cm-chatsan-replacement-bandage
     cm-chatsan-word-bandages: cm-chatsan-replacement-bandages
     cm-chatsan-word-baton: cm-chatsan-replacement-baton
     cm-chatsan-word-batons: cm-chatsan-replacement-batons
@@ -244,10 +267,10 @@
     cm-chatsan-word-prisoner: cm-chatsan-replacement-prisoner
     cm-chatsan-word-battery: cm-chatsan-replacement-battery
     cm-chatsan-word-console: cm-chatsan-replacement-console
-    cm-chatsan-word-radio: cm-chatsan-replacement-console
     cm-chatsan-word-computer: cm-chatsan-replacement-console
     cm-chatsan-word-terminal: cm-chatsan-replacement-console
     cm-chatsan-word-tablet: cm-chatsan-replacement-console
+    rmc-chatsan-word-television: rmc-chatsan-replacement-television
     cm-chatsan-word-generator: cm-chatsan-replacement-generator
     cm-chatsan-word-generators: cm-chatsan-replacement-generators
     cm-chatsan-word-disk: cm-chatsan-replacement-disk
