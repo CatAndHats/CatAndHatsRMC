@@ -160,6 +160,13 @@ cm-chatsan-replacement-normandy = metal bird
 cm-chatsan-word-almayer = almayer
 cm-chatsan-replacement-almayer = metal hive
 
+rmc-chatsan-word-parachute = parachute
+rmc-chatsan-word-parachutes = parachutes
+rmc-chatsan-replacement-parachute = wings
+
+rmc-chatsan-word-parachuting = parachuting
+rmc-chatsan-replacement-parachuting = flying
+
 cm-chatsan-word-admins-xeno = admins
 cm-chatsan-replacement-admins-xeno = grandmothers
 
@@ -381,6 +388,9 @@ cm-chatsan-replacement-laser = dot
 cm-chatsan-word-lazer = lazer
 cm-chatsan-replacement-lazer = dot
 
+rmc-chatsan-word-cannon = cannon
+rmc-chatsan-replacement-cannon = bombarder
+
 cm-chatsan-word-flamer = flamer
 cm-chatsan-replacement-flamer = fire spitter
 
@@ -418,6 +428,7 @@ cm-chatsan-word-spec = spec
 cm-chatsan-replacement-spec = special tall
 
 cm-chatsan-word-cas = cas
+rmc-chatsan-word-missile = missile
 cm-chatsan-replacement-cas = skyspit
 
 cm-chatsan-word-sensors = sensors
@@ -435,14 +446,36 @@ cm-chatsan-replacement-tcomms = tall hivemind tower
 cm-chatsan-word-communications-tower = communications tower
 cm-chatsan-replacement-communications-tower = tall hivemind tower
 
+rmc-chatsan-word-telephone = telephone
+cm-chatsan-word-radio = radio
+rmc-chatsan-replacement-telephone = talk stick
+
+rmc-chatsan-word-rto = RTO
+rmc-chatsan-word-radio-telephone-pack = radio telephone pack
+rmc-chatsan-replacement-rto = talk stick holder
+
+rmc-chatsan-word-pipe = pipe
+rmc-chatsan-word-gas-pipe = gas pipe
+rmc-chatsan-replacement-pipe = warren
+
+rmc-chatsan-word-vent = vent
+rmc-chatsan-word-air-scrubber = air scrubber
+rmc-chatsan-replacement-vent = warren hole
+
 cm-chatsan-word-smart-gun = smart gun
 cm-chatsan-replacement-smartgun = smart spitter
 
 cm-chatsan-word-sg = sg
 cm-chatsan-replacement-sg = smart spitter
 
+rmc-chatsan-word-sgo = sgo
+rmc-chatsan-replacement-sgo = smart spitter
+
 cm-chatsan-word-sgs = sgs
 cm-chatsan-replacement-sgs = smart spitters
+
+rmc-chatsan-word-sgos = sgos
+rmc-chatsan-replacement = smart spitters
 
 cm-chatsan-word-smartgun = smartgun
 cm-chatsan-replacement-smart-gun = smart spitter
@@ -495,16 +528,19 @@ cm-chatsan-word-survs = survs
 cm-chatsan-replacement-survs = planet talls
 
 cm-chatsan-word-bro = bro
+rmc-chatsan-word-brother = brother
+cm-chatsan-word-bruh = bruh
+rmc-chatsan-word-brah = brah
+cm-chatsan-word-bvro = bvro
+cm-chatsan-word-xro = xro
 cm-chatsan-replacement-bro = sister
 
-cm-chatsan-word-bruh = bruh
-cm-chatsan-replacement-bruh = sister
-
-cm-chatsan-word-bvro = bvro
-cm-chatsan-replacement-bvro = sister
-
-cm-chatsan-word-xro = xro
-cm-chatsan-replacement-xro = sister
+rmc-chatsan-word-bros = bros
+rmc-chatsan-word-brothers = brothers
+rmc-chatsan-word-brahs = brahs
+rmc-chatsan-word-bvros = bvros
+rmc-chatsan-word-xros = xros
+rmc-chatsan-replacement-bros = sisters
 
 cm-chatsan-word-naur = naur
 cm-chatsan-replacement-naur = no
@@ -656,6 +692,7 @@ cm-chatsan-word-autoinjectors = autoinjectors
 cm-chatsan-replacement-injectors = sting tools
 
 cm-chatsan-word-bandage = bandage
+rmc-chatsan-word-gauze = gauze
 cm-chatsan-replacement-bandage = wrap
 
 cm-chatsan-word-bandages = bandages
@@ -677,11 +714,13 @@ cm-chatsan-word-battery = battery
 cm-chatsan-replacement-battery = light core
 
 cm-chatsan-word-console = console
-cm-chatsan-word-radio = radio
 cm-chatsan-word-computer = computer
 cm-chatsan-word-terminal = terminal
 cm-chatsan-word-tablet = tablet
 cm-chatsan-replacement-console = talk box
+
+rmc-chatsan-word-television = television
+rmc-chatsan-replacement-television = light box
 
 cm-chatsan-word-generator = generator
 cm-chatsan-replacement-generator = light core
