@@ -368,3 +368,17 @@
   components:
   - type: Sprite
     offset: -0.07,0.45
+
+# Patthar's Bounty
+- type: entity
+  parent: RMCOverheadSignNeon
+  id: RMCOverheadSignNovaris
+  components:
+  - type: Sprite
+    layers:
+      - state: novarissign_1_on # Temporary until power works.
+      - state: novarissign_1_off
+        visible: false
+        map: [ "light" ]
+  - type: PointLight
+    color: "#16db4b"

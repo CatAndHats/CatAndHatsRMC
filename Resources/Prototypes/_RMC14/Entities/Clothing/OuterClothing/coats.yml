@@ -828,6 +828,16 @@
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/windbreaker_expedition.rsi
 
+- type: entity
+  parent: RMCJacketWindbreaker
+  id: RMCJacketWindbreakeNovaris
+  name: Novaris windbreaker
+  description: A green nylon windbreaker with the Novaris company logo on the back. Certainly not the height of fashion, but doesn't look half bad and keeps the rain off.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/windbreaker_novaris.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Windbreakers/windbreaker_novaris.rsi
 
 # priest robes
 - type: entity
