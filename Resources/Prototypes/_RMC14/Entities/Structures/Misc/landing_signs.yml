@@ -165,3 +165,21 @@
   components:
   - type: Sprite
     state: nereidspaceport_sign
+
+- type: entity
+  parent: RMCBaseLandingSign
+  id: RMCPattharsBountySpaceportSign
+  name: Patthar's Bounty - Katsuragi Interstellar Spaceport - Landing Zone one sign
+  description: A large sign that reads "Welcome to Patthar's Bounty Colony", along with "Pop. 93,400" and some other basic colony information in both English, Japanese, and Hindi.
+  components:
+  - type: Sprite
+    state: patthars_spaceport_lz1
+
+- type: entity
+  parent: RMCBaseLandingSign
+  id: RMCPattharsBountyFreightDockSign
+  name: Patthar's Bounty - Freight Dock NE-15 - Landing Zone two sign
+  description: A large sign that reads "Freight Dock NE-15". The sign features a Weston-Yamada company logo in the corner, as well as a readout of some notable information. Below the sign are "Restricted Area" and "Port" semiotics.
+  components:
+  - type: Sprite
+    state: nereidspaceport_sign

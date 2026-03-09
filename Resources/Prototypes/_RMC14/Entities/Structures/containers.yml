@@ -999,3 +999,58 @@
   components:
   - type: Sprite
     state: blue_t
+
+# Patthar's Bounty
+- type: entity
+  parent: RMCContainerBase
+  id: RMCContainerHalcyonSystemsLeft
+  name: Halcyon Systems Corporation Cargo Container
+  description: "A huge industrial shipping container. This one is owned by the Halcyon Systems Corporation, producer of starship parts, military-grade weaponry, and prosthetic limbs. Despite their close relationship with the SPP, you suspect they love money as much as any other Megacorp."
+  suffix: Halcyon, Left
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/containers_2.rsi
+    state: halcyoncontainerleft
+
+- type: entity
+  parent: RMCContainerHalcyonSystemsLeft
+  id: RMCContainerHalcyonSystemsMiddle
+  suffix: Halcyon, Middle
+  components:
+  - type: Sprite
+    state: halcyoncontainermiddle
+
+- type: entity
+  parent: RMCContainerHalcyonSystemsLeft
+  id: RMCContainerHalcyonSystemsRight
+  suffix: Halcyon, Right
+  components:
+  - type: Sprite
+    state: halcyoncontainerright
+
+- type: entity
+  parent: RMCContainerBase
+  id: RMCContainerWEYAFuelLeft
+  name: Weston-Yamada Fuel Container
+  description: "A huge industrial shipping container for fuel. This one is owned by the Weston-Yamada Corporation, and evidently contains a large amount of flammable materials. On the side, it reads 'The Future is Now' in Japanese."
+  suffix: WEYA, Fuel, Left
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/containers_2.rsi
+    state: weyafuelcontainerleft
+
+- type: entity
+  parent: RMCContainerWEYAFuelLeft
+  id: RMCContainerWEYAFuelMiddle
+  suffix: WEYA, Fuel, Middle
+  components:
+  - type: Sprite
+    state: weyafuelcontainermiddle
+
+- type: entity
+  parent: RMCContainerWEYAFuelLeft
+  id: RMCContainerWEYAFuelRight
+  suffix: WEYA, Fuel, Right
+  components:
+  - type: Sprite
+    state: weyafuelcontainerright

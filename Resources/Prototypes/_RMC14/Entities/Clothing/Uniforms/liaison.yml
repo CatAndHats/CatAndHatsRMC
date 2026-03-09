@@ -565,3 +565,14 @@
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/bluegrey_admin.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/bluegrey_admin.rsi
+
+- type: entity
+  parent: RMCJumpsuitLiaisonOrange
+  id: RMCJumpsuitLiaisonHalcyonBlack
+  name: black dress shirt and pants
+  description: A pair of slick black pants coupled with an equally-stylish black dress shirt. A popular look for employees and executives of the Halcyon Systems Corporation.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/halcyon_black_uniform.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Uniforms/Liaison/halcyon_black_uniform.rsi
