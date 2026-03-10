@@ -124,7 +124,7 @@
     params:
       loop: true
       volume: -6
-      
+
 - type: weather
   id: RMCHybrisaRainVeryLight
   sprite:
@@ -135,6 +135,41 @@
     params:
       loop: true
       volume: -6
+
+# Patthar's Bounty Rain
+
+- type: weather
+  id: RMCPattharsRain
+  sprite:
+    sprite: /Textures/_RMC14/Effects/weather.rsi
+    state: patthars_rain
+  sound:
+    collection: Rain
+    params:
+      loop: true
+      volume: -6
+
+- type: weather
+  id: RMCPattharsRainLight
+  sprite:
+    sprite: /Textures/_RMC14/Effects/weather.rsi
+    state: patthars_rain_light
+  sound:
+    collection: Rain
+    params:
+      loop: true
+      volume: -7
+
+- type: weather
+  id: RMCPattharsRainVeryLight
+  sprite:
+    sprite: /Textures/_RMC14/Effects/weather.rsi
+    state: patthars_rain_very_light
+  sound:
+    collection: Rain
+    params:
+      loop: true
+      volume: -8
 
 # Trijent
 - type: weather
