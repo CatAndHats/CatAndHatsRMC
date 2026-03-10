@@ -1,0 +1,18 @@
+﻿- type: entity
+  parent: BaseSign
+  id: RMCStockExchange1
+  name: stock exchange screen
+  description: A large screen showing a live update of the current stock market. This one shows of 4 of the largest regional megacorporations; WEYA, Halcyon, Novaris, and Avant, as well as a stock index readout.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Wallmounts/stock_screens.rsi
+    state: stock_exchange_1
+
+- type: entity
+  parent: RMCStockExchange1
+  id: RMCStockExchange2
+  description: A large screen showing a live update of the current stock market. This one shows a collection of relatively smaller corporations, as well as some graphs.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Wallmounts/stock_screens.rsi
+    state: stock_exchange_2
