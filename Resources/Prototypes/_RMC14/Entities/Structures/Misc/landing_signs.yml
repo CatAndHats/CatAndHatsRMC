@@ -182,4 +182,4 @@
   description: A large sign that reads "Freight Dock NE-15". The sign features a Weston-Yamada company logo in the corner, as well as a readout of some notable information. Below the sign are "Restricted Area" and "Port" semiotics.
   components:
   - type: Sprite
-    state: nereidspaceport_sign
+    state: patthars_freight_dock_lz2
