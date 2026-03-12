@@ -382,3 +382,17 @@
         map: [ "light" ]
   - type: PointLight
     color: "#16db4b"
+
+- type: entity
+  parent: RMCOverheadSignNeon
+  id: RMCOverheadSignNeonTramway
+  components:
+  - type: Sprite
+    offset: -0.25,0.5
+    layers:
+      - state: tramway_on # Temporary until power works.
+      - state: tramway_off
+        visible: false
+        map: [ "light" ]
+  - type: PointLight
+    color: "#FFE600"
