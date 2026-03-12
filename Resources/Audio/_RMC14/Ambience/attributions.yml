@@ -65,3 +65,8 @@
   license: "CC-BY-4.0"
   copyright: "Taken from Pixabay, Pixabay usage terms at https://pixabay.com/service/terms/"
   source: "https://pixabay.com/sound-effects/modern-war-129016/"
+
+- files: ["dripping-pipe.ogg"]
+  license: "CC0 1.0 Universal"
+  copyright: "Taken and modified from freesound.org, Water splash & drops 3 by giddster"
+  source: "https://freesound.org/people/giddster/sounds/387949/"
