@@ -1054,3 +1054,37 @@
   components:
   - type: Sprite
     state: weyafuelcontainerright
+
+- type: entity
+  parent: RMCContainerTartarusLeft
+  id: RMCContainerShortHalcyonLeft
+  suffix: Halcyon, Left
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/containers_2.rsi
+    state: halcyon_l
+
+- type: entity
+  parent: RMCContainerShortHalcyonLeft
+  id: RMCContainerShortHalcyonRight
+  suffix: Halcyon, Right
+  components:
+  - type: Sprite
+    state: halcyon_r
+
+- type: entity
+  parent: RMCContainerTartarusLeft
+  id: RMCContainerShortNovarisLeft
+  suffix: Novaris, Left
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/containers_2.rsi
+    state: novaris_l
+
+- type: entity
+  parent: RMCContainerShortNovarisLeft
+  id: RMCContainerShortNovarisRight
+  suffix: Novaris, Right
+  components:
+  - type: Sprite
+    state: novaris_r

@@ -382,3 +382,58 @@
         map: [ "light" ]
   - type: PointLight
     color: "#16db4b"
+
+- type: entity
+  parent: RMCOverheadSignNeon
+  id: RMCOverheadSignPatthars1
+  components:
+  - type: Sprite
+    offset: -0.25,0.5
+    layers:
+      - state: patthars_sign_1_on # Temporary until power works.
+      - state: patthars_sign_1_off
+        visible: false
+        map: [ "light" ]
+  - type: PointLight
+    color: "#c3c931"
+
+- type: entity
+  parent: RMCOverheadSignNeon
+  id: RMCOverheadSignPatthars2
+  components:
+  - type: Sprite
+    layers:
+      - state: patthars_sign_2_on # Temporary until power works.
+      - state: patthars_sign_2_off
+        visible: false
+        map: [ "light" ]
+  - type: PointLight
+    color: "#27aaa7"
+
+- type: entity
+  parent: RMCOverheadSignNeon
+  id: RMCOverheadSignPatthars3
+  components:
+  - type: Sprite
+    offset: -0.25,0.5
+    layers:
+      - state: patthars_sign_3_on # Temporary until power works.
+      - state: patthars_sign_3_off
+        visible: false
+        map: [ "light" ]
+  - type: PointLight
+    color: "#8a57b1"
+
+- type: entity
+  parent: RMCOverheadSignNeon
+  id: RMCOverheadSignPatthars4
+  components:
+  - type: Sprite
+    offset: -0.25,0.5
+    layers:
+      - state: patthars_sign_4_on # Temporary until power works.
+      - state: patthars_sign_4_off
+        visible: false
+        map: [ "light" ]
+  - type: PointLight
+    color: "#cbcbcb"
