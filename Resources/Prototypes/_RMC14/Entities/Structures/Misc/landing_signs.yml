@@ -176,10 +176,19 @@
     state: patthars_spaceport_lz1
 
 - type: entity
-  parent: RMCBaseLandingSign
+  parent: RMCPattharsBountySpaceportSign
   id: RMCPattharsBountyFreightDockSign
   name: Patthar's Bounty - Freight Dock NE-15 - Landing Zone two sign
   description: A large sign that reads "Freight Dock NE-15". The sign features a Weston-Yamada company logo in the corner, as well as a readout of some notable information. Below the sign are "Restricted Area" and "Port" semiotics.
   components:
   - type: Sprite
     state: patthars_freight_dock_lz2
+
+- type: entity
+  parent: RMCPattharsBountySpaceportSign
+  id: RMCPattharsBountyMiningSign
+  name: Patthar's Bounty - Mining Zone Kubera-3
+  description: A large sign that reads "Mining Zone Kubera-3". Below it is a restricted area semiotic, the Logo of TMCC (A subsidiary of WEYA), and text that says "Restricted Area. Authorized Personnel Only. Protective Equipment must be worn past this point". The sign is worn from acid-rain and industry.
+  components:
+  - type: Sprite
+    state: patthars_mining_sign
