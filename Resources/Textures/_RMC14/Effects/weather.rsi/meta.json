@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/master/icons/effects/weather.dmi",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/master/icons/effects/weather.dmi, patthar rain sprites by CatAndHats (github).",
   "size": {
     "x": 32,
     "y": 32
@@ -202,6 +202,75 @@
     },
     {
       "name": "hybrisa_rain_very_light",
+      "delays": [
+        [
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09
+        ]
+      ]
+    },
+    {
+      "name": "patthars_rain",
+      "delays": [
+        [
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09
+        ]
+      ]
+    },
+    {
+      "name": "patthars_rain_light",
+      "delays": [
+        [
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09,
+          0.09
+        ]
+      ]
+    },
+    {
+      "name": "patthars_rain_very_light",
       "delays": [
         [
           0.09,

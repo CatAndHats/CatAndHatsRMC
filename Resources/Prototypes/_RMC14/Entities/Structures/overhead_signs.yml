@@ -385,6 +385,13 @@
 
 - type: entity
   parent: RMCOverheadSignNeon
+  id: RMCOverheadSignNeonTramway
+  components:
+  - type: Sprite
+    offset: -0.25,0.5
+    
+- type: entity
+  parent: RMCOverheadSignNeon
   id: RMCOverheadSignPatthars1
   components:
   - type: Sprite

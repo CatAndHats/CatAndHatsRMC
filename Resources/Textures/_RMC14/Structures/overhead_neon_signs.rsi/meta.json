@@ -374,6 +374,21 @@
       "name": "pharmacy_off"
     },
     {
+      "name": "tramway_on",
+      "delays": [
+        [
+          0.1,
+          0.07,
+          0.3,
+          0.02,
+          12
+        ]
+      ]
+    },
+    {
+      "name": "tramway_off"
+    },
+    {
       "name": "novarissign_1_on",
       "delays": [
         [
