@@ -208,3 +208,23 @@
     state: flammable_pipe_17
   - type: Icon
     state: flammable_pipe_17
+
+- type: entity
+  parent: CMOverheadPipe
+  id: RMCOverheadPipeDripping
+  suffix: Dripping
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/overhead_pipes_dripping.rsi
+    state: dripping-pipe
+  - type: Icon
+    sprite: _RMC14/Structures/overhead_pipes_dripping.rsi
+    state: dripping-pipe
+  - type: AmbientSound
+    volume: -5
+    range: 5
+    enabled: false # massive desync issues over time, fix later if possible
+    sound:
+      path: /Audio/_RMC14/Ambience/dripping-pipe.ogg
+      params:
+        loop: true
