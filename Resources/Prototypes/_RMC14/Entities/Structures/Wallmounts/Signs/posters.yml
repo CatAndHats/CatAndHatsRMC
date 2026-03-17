@@ -970,3 +970,50 @@
   components:
   - type: Sprite
     state: SPP_13
+
+# Patthar's Bounty Posters
+
+- type: entity
+  parent: CMPosterBase
+  id: CMPosterPattharsMining1
+  name: "Wear Your Hard Hat Properly!"
+  description: "The head of a rodentia wearing a hard hat stares at you, surrounded by frankly too much text explaining how to wear a hard hat correctly."
+  components:
+  - type: Sprite
+    state: Patthars_Mining_1
+
+- type: entity
+  parent: CMPosterPattharsMining1
+  id: CMPosterPattharsMining2
+  name: "Mining Makes The World Keep Turning"
+  description: "A city gleaming with lights during the night-time stands above a group of miners digging deep below the earth."
+  components:
+  - type: Sprite
+    state: Patthars_Mining_2
+
+- type: entity
+  parent: CMPosterPattharsMining1
+  id: CMPosterPattharsMining3
+  name: "Doing Good Work!"
+  description: "A pickaxe surrounded in rays of golden light. This poster was made by Weston-Yamada to improve morale among their mining workforce, it didn't work."
+  components:
+  - type: Sprite
+    state: Patthars_Mining_3
+
+- type: entity
+  parent: CMPosterPattharsMining1
+  id: CMPosterPattharsMining4
+  name: "Your Friend In The Darkness"
+  description: "A poster reminding miners to keep their lanterns close at hand, a lantern lighting up the dark is displayed at the top of the poster."
+  components:
+  - type: Sprite
+    state: Patthars_Mining_4
+
+- type: entity
+  parent: CMPosterPattharsMining1
+  id: CMPosterPattharsMining5
+  name: "Which Co-Worker Did You Spot First?"
+  description: "Two black stylised figures stare at each other, one is wearing a bright blue hazard vest. The poster asks the reader which person they spotted first in an attempt to improve workplace safety."
+  components:
+  - type: Sprite
+    state: Patthars_Mining_5
