@@ -1476,6 +1476,51 @@
         tags:
         - RMCMagazineRifleSSG45AP
 
+# HC-56
+- type: entity
+  parent: RMCBoxMagazineRifleBase
+  id: RMCBoxMagazineRifleHC56Empty
+  name: magazine box (HC-56 x 10)
+  components:
+  - type: Sprite
+    layers:
+    - state: rifle_box
+      color: "#2b2b2b"
+    - state: rifle_ammo_full_mags_base
+      map: [ "enum.CMItemSlotsLayers.Fill" ]
+    - state: rifle_ammo_full_mags_color
+      map: [ "enum.CMItemSlotsLayers2.Fill" ]
+      color: "#ffc000"
+    - state: rifle_box_56
+      color: "#ffcb26"
+    - state: rifle_box_marking
+      color: "#7c1b1b"
+    - state: rifle_lid
+      map: [ "lid" ]
+      color: "#2b2b2b"
+    - state: rifle_lid_marking
+      map: [ "lid_marking" ]
+      color: "#7c1b1b"
+  - type: CMItemSlots
+    count: 10
+    slot:
+      whitelist:
+        tags:
+        - RMCMagazineRifleType71
+
+- type: entity
+  parent: RMCBoxMagazineRifleHC56Empty
+  id: RMCBoxMagazineRifleHC56
+  suffix: Full
+  components:
+  - type: CMItemSlots
+    startingItem: RMCMagazineRifleHC56
+    count: 10
+    slot:
+      whitelist:
+        tags:
+        - RMCMagazineRifleHC56
+
 # Type 71
 - type: entity
   parent: RMCBoxMagazineRifleBase
