@@ -99,3 +99,79 @@
     title: rmc-television-title
   - type: Machine
     board: RMCCircuitboardTelevision
+
+- type: entity
+  parent: BaseMachinePowered
+  id: RMCTelevisionCRTProp
+  name: CRT television set
+  suffix: Prop
+  abstract: False
+  placement:
+    mode: SnapgridCenter
+  description: An cathode-ray-tube television, also known as a CRT. This model appears to have been made by Weston-Yamada and is notably bulky, although it looks like it accepts VHS tapes.
+  components:
+  - type: Transform
+    anchored: false
+    noRot: false
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/television.rsi
+    layers:
+    - state: tv_off
+    - state: tv_on
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    drawdepth: LargeObjects
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.45,0.45,0.45"
+        density: 190
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: ApcPowerReceiver
+    powerLoad: 0
+    needsPower: false
+  - type: RMCPowerReceiver
+    idleLoad: 300
+    activeLoad: 300
+    channel: Equipment
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+  - type: PointLight
+    enabled: true
+    castShadows: true
+    radius: 1.8
+    color: "#18338b"
+  - type: AmbientSound #TODO: Have Power Off disable the sound.
+    volume: -6
+    range: 5
+    enabled: true
+    sound:
+      path: /Audio/_RMC14/Ambience/static.ogg
+      params:
+        loop: true
+
+- type: entity
+  parent: RMCTelevisionCRTProp
+  id: RMCTelevisionCRT
+  suffix: Functional
+  components:
+  - type: ActivatableUI
+    key: enum.RMCCameraUiKey.Key
+  - type: ActivatableUIRequiresPower
+  - type: UserInterface
+    interfaces:
+      enum.RMCCameraUiKey.Key:
+        type: RMCCameraBui
+  - type: RMCCameraComputer
+    protoIds:
+    - RMCTelevision
+    title: rmc-television-title
