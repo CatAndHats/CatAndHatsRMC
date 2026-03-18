@@ -66,3 +66,46 @@
     solutions:
       drainBuffer:
         maxVol: 200
+
+- type: entity
+  id: RMCSinkOverflow
+  name: overflowing sink
+  description: An ordinary sink, overflowing with water and pouring out onto the floor. Either nobody was around or nobody cared to turn it off.
+  suffix: Water
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Furniture/sink_overflow.rsi
+    state: sink_overflow
+  - type: AmbientSound
+    volume: -6
+    range: 5
+    sound:
+      path: /Audio/_RMC14/Ambience/tap-water.ogg
+  - type: SolutionContainerManager
+    solutions:
+      drainBuffer:
+        maxVol: 200
+  - type: RMCSinkWater
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 80
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 40
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: WallMount
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Appearance

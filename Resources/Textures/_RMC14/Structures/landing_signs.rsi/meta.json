@@ -94,6 +94,9 @@
     },
     {
       "name": "patthars_mining_sign"
+    },
+    {
+      "name": "patthars_busstop"
     }
   ]
 }
