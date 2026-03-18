@@ -192,3 +192,12 @@
   components:
   - type: Sprite
     state: patthars_mining_sign
+
+- type: entity
+  parent: RMCPattharsBountySpaceportSign
+  id: RMCPattharsBountyBusStopSign
+  name: bus stop sign
+  description: A bus-stop sign with large japanese text, the bus line logo, and some basic information.
+  components:
+  - type: Sprite
+    state: patthars_busstop

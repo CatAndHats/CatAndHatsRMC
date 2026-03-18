@@ -70,3 +70,23 @@
   license: "CC0 1.0 Universal"
   copyright: "Taken and modified Rain Storm by Dave_Girtsman (freesound) from freesound.org"
   source: "https://freesound.org/people/Dave_Girtsman/sounds/332496/"
+
+- files: ["tap-water.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Taken and modified from Tap Water.mp3 by Percy Duke from freesound.org"
+  source: "https://freesound.org/people/Percy%20Duke/sounds/23872/?"
+
+- files: ["tap-water.ogg"]
+  license: "CC-BY-3.0"
+  copyright: "Taken and modified from Tap Water.mp3 by Percy Duke from freesound.org"
+  source: "https://freesound.org/people/Percy%20Duke/sounds/23872/?"
+
+- files: ["am-radio-static.ogg"]
+  license: "CC0 1.0 Universal"
+  copyright: "Taken and modified from AM Radio Static.mp3 by FiftySimulated from freesound.org"
+  source: "https://freesound.org/people/FiftySimulated/sounds/418975/?"
+
+- files: ["static.ogg"]
+  license: "CC0 1.0 Universal"
+  copyright: "Taken and modified from static.wav by mrs4turn from freesound.org"
+  source: "https://freesound.org/people/mrs4turn/sounds/786065/"

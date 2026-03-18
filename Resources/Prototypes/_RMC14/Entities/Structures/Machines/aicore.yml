@@ -201,3 +201,24 @@
   - type: ApcPowerReceiver
     powerLoad: 0
     needsPower: false # Intentional
+
+- type: entity
+  parent: RMCAICore
+  id: RMCAICorePattharsColony
+  name: AMATSUMARA v2.4
+  description: A cutting-edge civilian AI designed for colonial applications, ensuring clean operation of various automated systems. It's further capable of controlling Average Joe units across the colony. Made by Novaris Industries.
+  placement:
+    mode: SnapgridCenter
+  components: #has no collission in 13 they have invisible walls behind it
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/AIStuff/aicore.rsi
+    layers:
+    - state: hydra-off
+    - state: ai_core_colony
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
