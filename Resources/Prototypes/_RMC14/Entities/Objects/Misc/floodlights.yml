@@ -512,3 +512,86 @@
   - type: Construction
     graph: RMCTrafficLightBrokenAlt
     node: start
+
+- type: entity
+  parent: BaseStructure
+  id: RMCTrafficLightWhite
+  name: traffic light
+  description: A traffic light.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Transform
+    anchored: false
+  - type: Physics
+    bodyType: Static
+  - type: Sprite
+    noRot: false
+    sprite: _RMC14/Objects/Misc/Lights/TrafficLight/trafficlight.rsi
+    layers:
+      - state: traffic_on
+      - state: traffic_off
+        visible: false
+        map: [ "light" ]
+    drawdepth: Mobs
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.95,-0.3,-0.5"
+        density: 50
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: InteractionOutline
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalGlassBreak
+  - type: Repairable
+  - type: Corrodible # Repairable, not destructible.
+    isCorrodible: false
+  - type: Appearance
+  - type: ToggleableVisuals
+    spriteLayer: light
+  - type: RMCReactorPoweredLight
+  - type: PreventAttackLightOff
+  - type: RequireProjectileTarget
+
+- type: entity
+  parent: RMCTrafficLightWhite
+  id: RMCTrafficLightWhiteFlipped
+  name: traffic light
+  description: A traffic light.
+  suffix: Flipped
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    noRot: true
+    sprite: _RMC14/Objects/Misc/Lights/TrafficLight/trafficlight_flipped.rsi
+    layers:
+      - state: traffic_on_flipped
+      - state: traffic_off_flipped
+        visible: false
+        map: [ "light" ]
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "0.5,-0.95,0.3,-0.5"
+        density: 50
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer

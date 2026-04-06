@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-4.0",
+  "copyright": "Made by SharkSnake98 on GitHub",
+  "size": {
+    "x": 64,
+    "y": 64
+  },
+  "states": [
+    {
+      "name": "traffic_off_flipped"
+    },
+    {
+      "name": "traffic_on_flipped",
+      "delays": [
+        [
+          10,
+          15,
+          5,
+          5
+        ]
+      ]
+    }
+  ]
+}
