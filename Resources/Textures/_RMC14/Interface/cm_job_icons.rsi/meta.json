@@ -657,6 +657,12 @@
         },
         {
             "name": "xeno_queen"
+        },
+        {
+            "name": "avant_exec"
+        },
+        {
+            "name": "novaris_exec"
         }
     ]
 }

@@ -1,0 +1,42 @@
+﻿- type: job
+  parent: CMSurvivorEngineer
+  id: RMCSurvivorPattharsNovarisSyntheticRepairman
+  name: rmc-job-name-survivor-novaris-synthetic-repairman
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivorEngineer
+  startingGear: RMCGearSurvivorNovarisSyntheticRepairman
+  spawnMenuRoleName: Novaris Synthetic Repairman (Patthars Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorCargoWorker
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+      - Novaris
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetEngineer
+  useLoadoutOfJob: CMSurvivorEngineer # for inheritance
+
+- type: startingGear
+  id: RMCGearSurvivorNovarisSyntheticRepairman
+  equipment:
+    jumpsuit: RMCJumpsuitCivilianGreenNovarisPatch
+    gloves: CMHandsInsulated
+    id: CMIDCardColonistEngineer
+    ears: CMHeadsetColony
+    pocket1: RMCPouchSurvivalFill
+    pocket2: RMCPouchToolsFill
+    back: CMSatchelEngineerSurvivorFill
+    shoes: RMCShoesBlack
+    eyes: RMCWeldingGoggles
+    outerClothing: RMCJacketWindbreakerNovaris
+    head: RMCHeadBeanie
+  storage:
+    back:
+    - RMCSynthResetKeyNovarisSMART

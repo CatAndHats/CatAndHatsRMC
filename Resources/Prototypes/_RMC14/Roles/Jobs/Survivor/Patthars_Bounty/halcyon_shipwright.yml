@@ -1,0 +1,38 @@
+﻿- type: job
+  parent: CMSurvivorEngineer
+  id: RMCSurvivorPattharsHalcyonShipwright
+  name: rmc-job-name-survivor-halcyon-shipwright
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivorEngineer
+  startingGear: RMCGearSurvivorHalcyonShipwright
+  spawnMenuRoleName: Halcyon Shipwright (Patthars Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorCargoWorker
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+      - Halcyon
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetEngineer
+  useLoadoutOfJob: CMSurvivorEngineer # for inheritance
+
+- type: startingGear
+  id: RMCGearSurvivorHalcyonShipwright
+  equipment:
+    jumpsuit: RMCJumpsuitCivilianRedHalcyonPatch
+    gloves: CMHandsBlackInsulated
+    outerClothing: CMUtilityVest
+    id: RMCIDCardHalcyon
+    ears: RMCHeadsetDistressHalcyon
+    shoes: RMCShoesJackboots
+    pocket1: RMCPouchSurvivalBlackFilled
+    pocket2: RMCPouchToolsFill
+    back: CMSatchelEngineerSurvivorFill
+    head: RMCHelmetWelding

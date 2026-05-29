@@ -1,0 +1,41 @@
+﻿- type: job
+  parent: CMSurvivorCorporate
+  id: RMCSurvivorPattharsNovarisExecutive
+  name: rmc-job-name-survivor-novaris-executive
+  description: cm-job-description-survivor
+  spawnMenuRoleName: Novaris Executive (Patthars Survivor)
+  startingGear: RMCGearSurvivorNovarisExecutive
+  accessGroups:
+  - ColonistCorporate
+  icon: "RMCJobIconNovarisExec"
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorNovarisExecutive
+    - type: NpcFactionMember
+      factions:
+      - Novaris
+      - Civilian
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: novaris
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_novaris
+
+- type: startingGear
+  parent: RMCGearSurvivorCorporate
+  id: RMCGearSurvivorNovarisExecutive
+  equipment:
+    jumpsuit: RMCJumpsuitLiaisonGreenWorkwearGoldTie
+    head: CMHeadCap
+    outerClothing: RMCJacketWindbreakerNovaris
+    hands: CMHandsBrown
+    shoes: RMCBootsCorporate
+    ears: RMCHeadsetDistressCorporateMisc

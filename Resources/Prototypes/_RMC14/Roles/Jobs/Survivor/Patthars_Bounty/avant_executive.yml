@@ -1,0 +1,55 @@
+﻿- type: job
+  parent: [ RMCJobRibbonBase, CMSurvivorCorporate ] # Halcyon CL shouldn't spawn with WY badges
+  id: RMCJobSurvivorPattharsAvantExecutive
+  name: rmc-job-name-survivor-avant-executive
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorAvantExecutive
+  accessGroups:
+  - ColonistCorporate
+  spawnMenuRoleName: Avant Executive (Patthars Survivor)
+  icon: "RMCJobIconAvantExec"
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorAvantExecutive
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetAvantExecutive
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Avant
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: avant
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_avant
+
+- type: startingGear
+  id: RMCGearSurvivorAvantExecutive
+  equipment:
+    id: CMIDCardLiaisonColony
+    pocket1: RMCPouchSurvivalFill
+    pocket2: CMClipboard # RMC14, replace with document pouch when fixed
+    ears: RMCHeadsetDistressCorporateMisc
+    gloves: CMHandsWhite
+    shoes: RMCShoesWhite
+
+- type: entity
+  id: RMCGearSurvivorPresetAvantExecutive
+  name: patthars avant executive preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ CMJumpsuitLiaisonCorporateFormalRedTie, RMCJacketCorporateFormal, CMMaskSterile ]
+    - [ CMJumpsuitLiaisonFormalRedTie, RMCLabcoatShortOpened ]
+    randomGearOther:
+    -
+      - [ CMOintment10, CMGauze10 ]

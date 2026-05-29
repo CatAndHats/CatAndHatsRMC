@@ -22,10 +22,14 @@
 - type: entity
   parent: RMCJumpsuitBlueWorkwear
   id: RMCJumpsuitBlueWorkwearChancesGoon
+  categories: [HideSpawnMenu]
   components:
   - type: UniformAccessoryHolder
     startingAccessories:
     - RMCPatchWeYaBlack
+  - type: Tag
+    tags:
+    - RMCUniformPMC
 
 - type: entity
   parent: RMCJumpsuitBlueWorkwear

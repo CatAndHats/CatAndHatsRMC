@@ -1,0 +1,64 @@
+﻿- type: job
+  parent: RMCSurvivorHybrisaTSEPAConstable
+  id: RMCSurvivorPattharsTSEPAConstable
+  name: rmc-job-name-tsepa-constable
+  description: cm-job-description-survivor
+  ranks:
+    RMCRankTSEPASergeant:
+    - !type:RoleTimeRequirement
+      role: CMJobSurvivorSecurity
+      time: 630000 # 175 hours
+    RMCRankTSEPASeniorConstable:
+    - !type:RoleTimeRequirement
+      role: CMJobSurvivorSecurity
+      time: 252000 # 70 hours
+    RMCRankTSEPAConstable: []
+  startingGear: RMCGearSurvivorPattharsTSEPAConstable
+  accessGroups:
+  - ColonistAllAccessNoArmory
+  - ColonistTSEPA
+  spawnMenuRoleName: TSEPA Constable (Patthars Survivor)
+  icon: "RMCJobIconTSEPAConstable"
+  hasIcon: true
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorMarshal
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetPattharsConstable
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - TSE
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+  useLoadoutOfJob: CMSurvivorSecurity # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorBase
+  id: RMCGearSurvivorPattharsTSEPAConstable
+  equipment:
+    eyes: RMCGlassesSecurityBlue
+    jumpsuit: RMCJumpsuitTSEPA
+    belt: RMCBeltHolsterPistolTSEFilledL54
+    shoes: RMCShoesJackboots
+    id: RMCIDCardTSEPASurvivor
+    back: RMCSatchelBlackFillSurvivorConstable
+    ears: RMCHeadsetTSEPA
+
+- type: entity
+  parent: RMCSurvivorPresetSecurity
+  id: RMCSurvivorPresetPattharsConstable
+  name: patthars constable colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    primaryWeapons: [ ]
+    randomOutfits:
+    - [ RMCHeadCapTSEPA, RMCCoatTSEPAHighVisVest, RMCMaskRebreather, RMCPouchMagazineFilledHC56, RMCWeaponRifleHC56 ]
+    - [ RMCHeadCapTSEPAPeaked, RMCCoatTSEPAHighVis, RMCPouchMagazineFilledMP5, WeaponSMGMP5 ]
+    - [ RMCHeadCapTSEPA, RMCArmorVestTSEPA, RMCPouchShotgunFilledPolicing, RMCWeaponShotgunHG3712, RMCHandsCombat ]
+    - [ RMCHeadCapTSEPAPeakedGold, RMCCoatTSEPA, RMCMaskRebreather, RMCPouchShotgunFilledPolicing, RMCWeaponShotgunHG3712, RMCHandsCombat ]

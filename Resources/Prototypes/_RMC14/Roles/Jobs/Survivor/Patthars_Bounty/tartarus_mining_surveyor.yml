@@ -1,0 +1,36 @@
+﻿- type: job
+  parent: CMSurvivorScientist
+  id: RMCSurvivorPattharsTartarusMiningSurveyor
+  name: rmc-job-name-survivor-tartarus-mining-surveyor
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivorScientist
+  startingGear: RMCGearSurvivorTartarusMiningSurveyor
+  spawnMenuRoleName: Tartarus Mining Surveyor (Patthars Survivor)
+  accessGroups:
+  - ColonistEngi
+  useLoadoutOfJob: CMSurvivorScientist # for inheritance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+      - WeYa
+    - type: Skills
+      preset: RMCSkillPresetSurvivorTartarusMiningSurveyor
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetScientist
+
+- type: startingGear
+  id: RMCGearSurvivorTartarusMiningSurveyor
+  equipment:
+    jumpsuit: RMCJumpsuitTMCC
+    outerClothing: RMCHazardVestTMCC
+    shoes: RMCShoesJackboots
+    back: RMCSatchelVirologyFill
+    pocket1: RMCPouchSurvivalFill
+    pocket2: RMCPouchMedicalFill
+    head: RMCHardhatOrange
+    eyes: RMCHippieGlasses
+    id: RMCIDCardColonistScientist
+    ears: CMHeadsetColony

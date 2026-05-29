@@ -1,0 +1,34 @@
+﻿- type: job
+  parent: CMSurvivorDoctor
+  id: RMCSurvivorPattharsBackAlleySurgeon
+  name: rmc-job-name-survivor-back-alley-surgeon
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorBackAlleySurgeon
+  spawnMenuRoleName: Back-Alley Surgeon (Patthars Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorBackAlleySurgeon
+    - type: RMCSurvivor
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetDoctor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+  useLoadoutOfJob: CMSurvivorDoctor # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivor
+  id: RMCGearSurvivorBackAlleySurgeon
+  equipment:
+    gloves: CMHandsLatex
+    shoes: RMCShoesBlack
+    back: CMSatchelMedical
+    jumpsuit: RMCJumpsuitTShirtWhiteSurgicalWebbing
+    head: RMCHeadBeanieTan
+    mask: CMMaskSterile
+

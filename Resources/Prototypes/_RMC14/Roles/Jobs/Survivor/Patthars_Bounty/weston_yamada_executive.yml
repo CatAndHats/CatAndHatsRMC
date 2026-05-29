@@ -1,0 +1,65 @@
+﻿- type: job
+  parent: CMSurvivorCorporate
+  id: RMCSurvivorPattharsWestonYamadaExecutive
+  name: rmc-job-name-survivor-weston-yamada-executive
+  description: cm-job-description-survivor
+  spawnMenuRoleName: Weston-Yamada Executive (Patthars Survivor)
+  startingGear: RMCGearSurvivorPattharsWestonYamadaExecutive
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorPizzaGalaxyDriver
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetPattharsWestonYamadaExecutive
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - WeYa
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: cl
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_goon
+
+- type: startingGear
+  id: RMCGearSurvivorPattharsWestonYamadaExecutive
+  equipment:
+    ears: RMCHeadsetDistressWeYa
+    id: CMIDCardLiaisonColony
+    pocket1: RMCPouchSurvivalFill
+    pocket2: CMClipboard # RMC14, replace with document pouch when fixed
+
+- type: entity
+  id: RMCSurvivorPresetPattharsWestonYamadaExecutive
+  name: patthars weston-yamada executive preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCJumpsuitGreySuitPants, RMCCorporateLogisticsJacket ]
+    - [ RMCJumpsuitLiaisonBlackRedTie, RMCJacketCorporateBlack, RMCHeadCapFedoraGrey ]
+    - [ RMCJumpsuitBlackPantsUniform, RMCWeYaBlueVest, RMCHeadCapWestonYamadaDark ]
+    - [ RMCJumpsuitWornSuit, RMCJacketCorporateKhaki, RMCHeadBeretWeYa ]
+    - [ CMJumpsuitLiaisonBrown, RMCWEYARainCoat ]
+    randomGearOther:
+    -
+      - [ CMSheetMetal20, RMCSpaceCash1000, CMPenClicky, CMClipboard ]
+    randomStartingGear:
+      back:
+      - CMSatchel # todo secure satchel
+      - RMCSatchelBlack
+      shoes:
+      - RMCShoesLaceup
+      - RMCShoesLaceupBrown
+      - RMCBootsCorporate
+      gloves:
+      - RMCHandsBlack
+      - CMHandsBrown
+      - RMCHandsLeatherBlack

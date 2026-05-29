@@ -1,0 +1,61 @@
+﻿- type: job
+  parent: CMSurvivorGoon
+  id: RMCSurvivorPattharsWestonYamadaSecurity
+  name: rmc-job-name-survivor-weston-yamada-security
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorPattharsWestonYamadaSecurity
+  spawnMenuRoleName: Weston-Yamada Security (Patthars Survivor)
+  hasIcon: true
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorGoon
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetPattharsWestonYamadaSecurity
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - WeYa
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: goon_standard
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_goon
+
+- type: startingGear
+  parent: RMCGearSurvivorBase
+  id: RMCGearSurvivorPattharsWestonYamadaSecurity
+  equipment:
+    outerClothing: CMArmorM4PMCCorporate
+    jumpsuit: RMCJumpsuitBlueWorkwearChancesGoon
+    shoes: RMCShoesJackboots
+    id: RMCIDCardWeYaCorporateSecurity
+    back: RMCSatchelLightpackSurvivorFill
+    ears: RMCHeadsetDistressWeYa
+    gloves: RMCHandsVeteran
+    pocket1: RMCPouchSurvivalBlackFilled
+    pocket2: RMCPouchFirstAidPMCFill
+
+- type: entity
+  parent: RMCSurvivorPresetSecurity
+  id: RMCSurvivorPresetPattharsWestonYamadaSecurity
+  name: patthars weston-yamada security preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCArmorHelmetPMCDark, RMCMaskRebreather ]
+    - [ RMCArmorHelmetPMCDark, RMCMaskCoifPMC ]
+    - [ RMCHeadBeretWeYa, RMCMaskRebreather ]
+    - [ RMCHeadBeretWeYa, RMCMaskCoifPMC ]
+    - [ RMCArmorHelmetPMCBlack, RMCMaskRebreather ]
+    - [ RMCArmorHelmetPMCBlack, RMCMaskCoifPMC ]
+    - [ RMCArmorHelmetPMCCorporateHybrisa, RMCMaskRebreather ]
+    - [ RMCArmorHelmetPMCCorporateHybrisa, RMCMaskCoifPMC ]

@@ -1,0 +1,33 @@
+﻿- type: job
+  parent: CMSurvivorScientist
+  id: RMCSurvivorPattharsAvantBiomedicalScientist
+  name: rmc-job-name-survivor-avant-biomedical-scientist
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivorScientist
+  startingGear: RMCGearSurvivorAvantBiomedicalScientist
+  spawnMenuRoleName: Avant Biomedical Scientist (Patthars Survivor)
+  accessGroups:
+  - ColonistMedical
+  useLoadoutOfJob: CMSurvivorScientist # for inheritance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+      - Avant
+    - type: Skills
+      preset: RMCSkillPresetSurvivorAvantBiomedicalScientist
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetScientist
+
+- type: startingGear
+  parent: RMCGearSurvivorScientist
+  id: RMCGearSurvivorAvantBiomedicalScientist
+  equipment:
+    jumpsuit: RMCJumpsuitCivilianScientist
+    outerClothing: RMCSuitBioGeneral
+    shoes: RMCBootsCBRN
+    back: RMCSatchelVirologyFill
+    mask: CMMaskGas
+    pouch2: RMCPouchMedicalFill

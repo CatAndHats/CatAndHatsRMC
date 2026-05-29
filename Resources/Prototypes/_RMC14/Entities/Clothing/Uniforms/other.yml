@@ -177,6 +177,14 @@
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/green_utility.rsi
 
 - type: entity
+  parent: RMCJumpsuitCivilianGreen
+  id: RMCJumpsuitCivilianGreenNovarisPatch
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchNovaris
+
+- type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianBlue
   name: blue utility uniform
@@ -197,6 +205,15 @@
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/red_utility.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/red_utility.rsi
+
+- type: entity
+  parent: RMCJumpsuitCivilianRed
+  id: RMCJumpsuitCivilianRedHalcyonPatch
+  categories: [HideSpawnMenu]
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchHalcyon
 
 - type: entity
   parent: RMCJumpsuitCivilian

@@ -525,6 +525,13 @@
 
 - type: entity
   parent: CMJumpsuitTShirtWhite
+  id: RMCJumpsuitTShirtWhiteSurgicalWebbing
+  components:
+  - type: WebbingClothing
+    startingWebbing: RMCWebbingSurgicalGreen
+
+- type: entity
+  parent: CMJumpsuitTShirtWhite
   id: CMJumpsuitTShirtRed
   name: red tshirt
   components:

@@ -255,7 +255,7 @@ rmc-job-name-survivor-soro-miner = Jùtóu Combine - Shakhtyor
 
 rmc-job-name-survivor-halcyon-dynamics-liaison = Halcyon Dynamics - Corporate Liaison
 
-# Sorokyne SOF insert survs 
+# Sorokyne SOF insert survs
 
 rmc-job-greeting-soro-sof = You are a member of an SPP SOF QRF team! Your primary objective is to survive. You believe a second dropship crashed somewhere to the south west, which was carrying additional weapons. You are part of an SOF QRF team of the Socialist Progressive Peoples, deployed alongside the Ministry of Space Colonization to build garrisons on distant worlds. On the return trip from the frontier, you receive a distress signal from the Peoples' colony of 'Sorokyne Strata' on the planet 'Thermae I' (LV-976). Your team is sent to investigate. Intel suggests CLF separatists or a UN/TSE incursion, but as you touch down in the hangar, something feels wrong. No welcome party. No usual hustle of a working colony. Nothing to suggest an incursion of any kind. Your mission is clear—find out what happened to your supply ship and comrades, retrieve your equipment, and uncover the truth of what really happened to the colony.
 
@@ -303,7 +303,7 @@ cm-job-name-survivor-trijent-dam-tech = Dam Maintenance Technician
 cm-job-name-survivor-trijent-corporate = Trijent Corporation Liaison
 CMSurvivorTrijentCorporate = Trijent Corporation Liaison
 
-# Trijent crashland insert survs 
+# Trijent crashland insert survs
 
 rmc-job-greeting-crashland = You are a member of an SPP recon force! Your primary objective is to survive. You believe a second dropship crashed somewhere to the south east, which was carrying additional weapons. Your orders were simple, Recon the site, ascertain if there is a biological weapons program in the area, and if so to secure the colony and retrieve a sample. However your team failed to account for an active anti-air battery near the area. Both your craft and your sister ship crashed. Barely having a chance to catch your breath, you found yourself being assailed by vile xenonids! You and your team have barely held your ground, at the cost of four of your own, but more are coming and ammo is low. You believe a United Nations rescue force is en route.
 
@@ -527,3 +527,54 @@ rmc-job-greeting-shivas-panic-room-engineer = You are an Engineer on the Colony!
   You are an Engineer working on 'Ifrit' for Weston-Yamada. This whole outbreak has been a giant mess, you and all other Company personnel ran to the Operations Panic Room, until you heard shooting outside and closed the shutters. You are running low on food, water and ammunition for the weapons. You remember that the xenonids seem to be able to see in the dark, as you saw one grab a co-worker trying to fix the generators after the power went out. In their attempts at trying to breach in, the so called 'xenonids' have tried attacking the shutters, but to no avail. They will soon try again. You must survive and find a way to contact Weston-Yamada.
 
   You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+
+# Patthar's Bounty
+
+rmc-job-name-survivor-tuktuk-driver = Tuk Tuk Driver
+
+rmc-job-name-survivor-hawker = Hawker
+
+rmc-job-name-survivor-factory-worker = Factory Worker
+
+rmc-job-name-survivor-air-traffic-controller = Air Traffic Controller
+
+rmc-job-name-survivor-office-worker = Office Worker
+
+rmc-job-name-survivor-novaris-executive = Novaris Executive
+
+rmc-job-name-survivor-weston-yamada-executive = Weston-Yamada Executive
+
+rmc-job-name-survivor-halcyon-executive = Halcyon Executive
+
+rmc-job-name-survivor-avant-executive = Avant Executive
+
+rmc-job-name-survivor-avant-doctor = Avant Doctor
+
+rmc-job-name-survivor-weston-yamada-onsite-medic = Weston-Yamada Onsite Medic
+
+rmc-job-name-survivor-back-alley-surgeon = Back-Alley Surgeon
+
+rmc-job-name-survivor-cargo-worker = Cargo Worker
+
+rmc-job-name-survivor-tartarus-miner = Tartarus Miner
+
+rmc-job-name-survivor-halcyon-shipwright = Halcyon Shipwright
+
+rmc-job-name-survivor-novaris-synthetic-repairman = Novaris Synthetic Repairman
+
+rmc-job-name-survivor-avant-biomedical-scientist = Avant Biomedical Scientist
+
+rmc-job-name-survivor-tartarus-mining-surveyor = Tartarus Mining Surveyor
+
+rmc-job-name-survivor-tse-terraforming-supervisor = TSE Terraforming Supervisor
+
+rmc-job-name-survivor-halcyon-gunsmith = Halcyon Gunsmith
+
+rmc-job-name-survivor-weston-yamada-security = Weston-Yamada Security
+
+rmc-job-name-survivor-novaris-security = Novaris Security
+
+rmc-job-name-survivor-halcyon-pmc = Halcyon PMC
+
+rmc-job-name-survivor-tsepa-inspector = TSEPA Inspector
+

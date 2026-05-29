@@ -29,7 +29,7 @@
   - type: StorageFill
     contents:
     - id: CMMagazineSMGM63AP
-    
+
 - type: entity
   parent: RMCPouchGeneralLarge
   id: RMCPouchGeneralLargeFillWheat
@@ -83,6 +83,16 @@
   - type: StorageFill
     contents:
     - id: CMMagazineSMGMP5
+      amount: 3
+
+- type: entity
+  parent: RMCPouchMagazine
+  id: RMCPouchMagazineFilledHC56
+  suffix: Filled, HC-56
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineRifleHC56
       amount: 3
 
 - type: entity

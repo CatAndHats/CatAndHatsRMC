@@ -1,0 +1,39 @@
+﻿- type: job
+  parent: CMSurvivor
+  id: RMCSurvivorPattharsFactoryWorker
+  name: rmc-job-name-survivor-air-traffic-controller
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivor
+  startingGear: RMCGearSurvivorAirTrafficController
+  spawnMenuRoleName: Air Traffic Controller (Patthars Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorAirTrafficController
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetPattharsAirTrafficController
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+
+- type: startingGear
+  parent: RMCGearSurvivor
+  id: RMCGearSurvivorAirTrafficController
+  equipment:
+    shoes: RMCShoesLaceup
+
+- type: entity
+  parent: RMCSurvivorPresetCivilian
+  id: RMCGearSurvivorPresetPattharsAirTrafficController
+  name: patthars air traffic controller colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCJumpsuitLiaisonBlackRedTie, RMCHeadWeYaPilotCap, RMCGlassesAviators ]
+    - [ RMCJumpsuitLiaisonBlueGreyAdmin, RMCHeadUNMCHeadset ]

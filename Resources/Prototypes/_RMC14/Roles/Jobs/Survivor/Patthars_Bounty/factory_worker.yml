@@ -1,0 +1,43 @@
+﻿- type: job
+  parent: CMSurvivor
+  id: RMCSurvivorPattharsFactoryWorker
+  name: rmc-job-name-survivor-factory-worker
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivor
+  startingGear: RMCGearSurvivorFactoryWorker
+  spawnMenuRoleName: Factory Worker (Patthars Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorMiner
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetPattharsFactoryWorker
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+
+- type: startingGear
+  parent: RMCGearSurvivor
+  id: RMCGearSurvivorFactoryWorker
+  equipment:
+    eyes: RMCGogglesBallistic
+    shoes: CMBootsGrey
+    gloves: RMCHandsVeteranInsulated
+    pocket2: RMCPouchToolsFill
+
+- type: entity
+  parent: RMCSurvivorPresetCivilian
+  id: RMCGearSurvivorPresetPattharsFactoryWorker
+  name: patthars factory worker colonist preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCJumpsuitCivilianBlue, RMCHardhatBlue, RMCHazardVestBlack ]
+    - [ RMCJumpsuitCivilianRed, RMCHardhatOrange, RMCHazardVest ]
+    - [ RMCJumpsuitCivilianGreen, RMCHardhatWhite, RMCHazardVestBlue ]

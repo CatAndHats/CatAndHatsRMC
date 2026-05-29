@@ -1,0 +1,57 @@
+﻿- type: job
+  parent: CMJobSurvivorHalcyonDynamicsLiaison # Halcyon CL shouldn't spawn with WY badges
+  id: RMCJobSurvivorPattharsHalcyonExecutive
+  name: rmc-job-name-survivor-halcyon-executive
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorPattharsHalcyonExecutive
+  accessGroups:
+  - ColonistCorporate
+  spawnMenuRoleName: Halcyon Executive (Patthars Survivor)
+  icon: "RMCJobIconHalcyonExec"
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorHalcyonExecutive
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetPattharsHalcyonExecutive
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Halcyon
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: halcyon
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_halcyon
+
+- type: startingGear
+  id: RMCGearSurvivorPattharsHalcyonExecutive
+  equipment:
+    back: CMSatchelFillSurvivor
+    gloves: RMCHandsBlack
+    shoes: RMCShoesLaceup
+    pocket1: RMCPouchSurvivalBlackFilled
+    id: RMCIDCardHalcyon
+    ears: RMCHeadsetDistressHalcyon
+    pocket2: CMClipboard # RMC14, replace with document pouch when fixed
+  storage:
+    back:
+    - RMCHalcyonCup
+
+- type: entity
+  id: RMCGearSurvivorPresetPattharsHalcyonExecutive
+  name: patthars halcyon executive preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCJumpsuitLiaisonHalcyonBlackRedTie, RMCJacketCorporateBlack, RMCGlassesTriMaxBlackFake ]
+    - [ RMCJumpsuitLiaisonBlackRedTie, RMCFancySuitJacketBlack, RMCHeadBeretSquad ]
+    - [ RMCJumpsuitJetblackExecutiveSuit, RMCVestGrey ]

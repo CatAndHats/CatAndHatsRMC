@@ -16,6 +16,8 @@
   - CLF
   - TSE
   - HEFA
+  - Novaris
+  - Avant
 
 - type: npcFaction
   id: RMCDumb
@@ -29,6 +31,8 @@
   - CLF
   - TSE
   - HEFA
+  - Novaris
+  - Avant
 
 - type: npcFaction
   id: SPP
@@ -39,6 +43,16 @@
   id: Halcyon
   hostile:
   - RMCXeno
+
+- type: npcFaction
+  id: Novaris
+  hostile:
+  - RMCXeno
+
+- type: npcFaction
+  id: Avant
+  hostile:
+  - Avant
 
 - type: npcFaction
   id: CLF
