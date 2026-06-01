@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 05/05/2026 12:46:42
-  entityCount: 30116
+  time: 05/16/2026 12:08:02
+  entityCount: 30112
 maps:
 - 1
 grids:
@@ -53454,7 +53454,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -50308.867
+      secondsUntilStateChange: -50311.066
       state: Opening
   - uid: 133
     components:
@@ -53950,7 +53950,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -52388.3
+      secondsUntilStateChange: -52390.5
       state: Opening
   - uid: 200
     components:
@@ -53962,7 +53962,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -52389.332
+      secondsUntilStateChange: -52391.53
       state: Opening
   - uid: 201
     components:
@@ -53995,7 +53995,7 @@ entities:
       pos: 127.5,-79.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -54831.97
+      secondsUntilStateChange: -54834.168
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54067,7 +54067,7 @@ entities:
       pos: 77.5,-75.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -51393.332
+      secondsUntilStateChange: -51395.53
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54088,7 +54088,7 @@ entities:
       pos: 80.5,-75.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -51393.035
+      secondsUntilStateChange: -51395.234
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54193,7 +54193,7 @@ entities:
       pos: 63.5,-64.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -51689
+      secondsUntilStateChange: -51691.2
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54590,7 +54590,7 @@ entities:
       pos: 68.5,-33.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -52871.465
+      secondsUntilStateChange: -52873.664
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -59973,7 +59973,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 865.2991347
     - type: Door
-      secondsUntilStateChange: -52921.566
+      secondsUntilStateChange: -52923.766
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -59988,7 +59988,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 865.2991347
     - type: Door
-      secondsUntilStateChange: -52921.566
+      secondsUntilStateChange: -52923.766
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60519,7 +60519,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2393.0309403
     - type: Door
-      secondsUntilStateChange: -51393.832
+      secondsUntilStateChange: -51396.03
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60535,7 +60535,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2393.0309403
     - type: Door
-      secondsUntilStateChange: -51393.832
+      secondsUntilStateChange: -51396.03
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60551,7 +60551,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2078.4979215
     - type: Door
-      secondsUntilStateChange: -51708.367
+      secondsUntilStateChange: -51710.566
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60567,7 +60567,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2078.4979215
     - type: Door
-      secondsUntilStateChange: -51708.367
+      secondsUntilStateChange: -51710.566
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -199877,40 +199877,12 @@ entities:
     - type: Transform
       pos: 134.5,-129.5
       parent: 1
-- proto: RMCMapInsertSolarisSurvSpawnAdmin
+- proto: RMCMapInsertSolarisSurvSpawnTogether
   entities:
   - uid: 2251
     components:
     - type: Transform
       pos: 74.5,-83.5
-      parent: 1
-- proto: RMCMapInsertSolarisSurvSpawnBar
-  entities:
-  - uid: 2248
-    components:
-    - type: Transform
-      pos: 110.5,-82.5
-      parent: 1
-- proto: RMCMapInsertSolarisSurvSpawnOffice
-  entities:
-  - uid: 2247
-    components:
-    - type: Transform
-      pos: 124.5,-102.5
-      parent: 1
-- proto: RMCMapInsertSolarisSurvSpawnSouthMarshals
-  entities:
-  - uid: 2250
-    components:
-    - type: Transform
-      pos: 88.5,-63.5
-      parent: 1
-- proto: RMCMapInsertSolarisSurvSpawnStorage
-  entities:
-  - uid: 2249
-    components:
-    - type: Transform
-      pos: 84.5,-114.5
       parent: 1
 - proto: RMCMapInsertSolarisTCommsOpen
   entities:

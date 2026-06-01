@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 05/13/2026 20:32:55
-  entityCount: 38838
+  time: 05/16/2026 12:08:26
+  entityCount: 38835
 maps:
 - 1
 grids:
@@ -69567,7 +69567,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -54057.152
+      secondsUntilStateChange: -54058.38
       state: Opening
 - proto: CMAnestheticTank
   entities:
@@ -177666,33 +177666,12 @@ entities:
     - type: Transform
       pos: 152.5,-117.5
       parent: 1
-- proto: RMCMapInsertTrijentSurvSpawnBar
+- proto: RMCMapInsertTrijentSurvSpawnTogether
   entities:
   - uid: 18208
     components:
     - type: Transform
       pos: 72.5,-135.5
-      parent: 1
-- proto: RMCMapInsertTrijentSurvSpawnDam
-  entities:
-  - uid: 18209
-    components:
-    - type: Transform
-      pos: 133.5,-76.5
-      parent: 1
-- proto: RMCMapInsertTrijentSurvSpawnHospital
-  entities:
-  - uid: 18210
-    components:
-    - type: Transform
-      pos: 141.5,-138.5
-      parent: 1
-- proto: RMCMapInsertTrijentSurvSpawnTunnelDorm
-  entities:
-  - uid: 18211
-    components:
-    - type: Transform
-      pos: 86.5,-106.5
       parent: 1
 - proto: RMCMapInsertTrijentTempleIntact
   entities:
