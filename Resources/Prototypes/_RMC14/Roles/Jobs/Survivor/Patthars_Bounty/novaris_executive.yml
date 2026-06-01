@@ -34,7 +34,7 @@
   id: RMCGearSurvivorNovarisExecutive
   equipment:
     jumpsuit: RMCJumpsuitLiaisonGreenWorkwearGoldTie
-    head: CMHeadCap
+    head: RMCHeadCapNovaris
     outerClothing: RMCJacketWindbreakerNovaris
     hands: CMHandsBrown
     shoes: RMCBootsCorporate

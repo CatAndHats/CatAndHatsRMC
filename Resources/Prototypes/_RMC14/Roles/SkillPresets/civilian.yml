@@ -385,3 +385,21 @@
       RMCSkillSurgery: 1
       RMCSkillResearch: 1
       RMCSkillFirearms: 2
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorTSEPAInspector
+  name: Survivor TSEPA Inspector
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillEngineer: 1
+      RMCSkillMeleeWeapons: 1
+      RMCSkillConstruction: 2
+      RMCSkillMedical: 2
+      RMCSkillEndurance: 3
+      RMCSkillCqc: 3
+      RMCSkillFirearms: 2
+      RMCSkillFireman: 2
+      RMCSkillLeadership: 2

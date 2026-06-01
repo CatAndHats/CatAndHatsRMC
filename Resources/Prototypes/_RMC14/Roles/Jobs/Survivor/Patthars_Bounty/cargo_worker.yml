@@ -41,6 +41,6 @@
   components:
   - type: EntityPreset
     randomOutfits:
-    - [ RMCShoesJackboots, RMCHazardVest, RMCHardhatBlue ]
+    - [ RMCShoesJackboots, RMCHazardVest, RMCHardhatBlue, RMCMaskGasCivilian ]
     - [ RMCShoesJackboots, RMCHazardVestBlue, RMCHardhatWhite, RMCMaskRebreather ]
     - [ RMCShoesBlack, RMCCorporateDutyJacket, RMCHeadBeanieCargo ]

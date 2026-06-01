@@ -75,6 +75,13 @@
     sprite: _RMC14/Interface/cm_job_icons.rsi
     state: hc_exec
 
+- type: jobIcon
+  parent: CMJobIconBase
+  id: RMCJobIconHalcyonPMC
+  icon:
+    sprite: _RMC14/Interface/cm_job_icons.rsi
+    state: hc_pmc
+
 # WEYA Job Icons
 - type: jobIcon
   parent: CMJobIconBase
@@ -138,6 +145,13 @@
   icon:
     sprite: _RMC14/Interface/cm_job_icons.rsi
     state: novaris_exec
+
+- type: jobIcon
+  parent: CMJobIconBase
+  id: RMCJobIconNovarisSec
+  icon:
+    sprite: _RMC14/Interface/cm_job_icons.rsi
+    state: novaris_sec
 
 - type: jobIcon
   parent: CMJobIconBase

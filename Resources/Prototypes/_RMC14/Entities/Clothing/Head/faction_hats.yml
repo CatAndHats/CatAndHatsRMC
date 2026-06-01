@@ -176,3 +176,17 @@
     hatRsi:
       sprite: _RMC14/Objects/Clothing/Head/Hats/unmc_headset.rsi
       state: hat
+
+# Novaris
+- type: entity
+  parent: RMCHeadCapFlippable
+  id: RMCHeadCapNovaris
+  name: Novaris Industries cap
+  description: A green cap with the name "Novaris" on the front in yellow lettering. Cheaply made, widely sold, and does the job of keeping off rain or sun.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Head/Hats/novaris_cap.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Head/Hats/novaris_cap.rsi
+  - type: ItemCamouflage
+    camouflageVariations: { }

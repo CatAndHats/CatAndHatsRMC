@@ -1,0 +1,59 @@
+﻿- type: job
+  parent: CMSurvivorGoon
+  id: RMCSurvivorPattharsHalcyonPMC
+  name: rmc-job-name-survivor-halcyon-pmc
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorPattharsHalcyonPMC
+  spawnMenuRoleName: Halcyon PMC (Patthars Survivor)
+  icon: "RMCJobIconHalcyonPMC"
+  hasIcon: true
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorGoon
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetPattharsHalcyonPMC
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Halcyon
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: goon_standard
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_halcyon
+
+- type: startingGear
+  id: RMCGearSurvivorPattharsHalcyonPMC
+  equipment:
+    jumpsuit: RMCJumpsuitPMCHalcyonPatch
+    shoes: RMCBootsCorporate
+    id: CMIDCardColonistSecurity
+    back: RMCSatchelSecuritySurvivorFillCMBMarshal
+    ears: RMCHeadsetDistressHalcyon
+    pocket2: RMCPouchMagazine
+    pocket1: RMCPouchSurvivalFill
+    head: RMCArmorHelmetHalcyon
+    outerClothing: RMCArmorHC79Light
+    gloves: RMCHandsCombat
+
+- type: entity
+  parent: RMCSurvivorPresetSecurity
+  id: RMCSurvivorPresetPattharsHalcyonPMC
+  name: patthars halcyon pmc preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    primaryWeapons:
+    - [ RMCBeltMarineHC56, RMCWeaponRifleHC56 ]
+    - [ RMCBeltMarineType19, RMCWeaponSMGType19 ]
+    - [ CMBeltMarineBuckshot, RMCWeaponShotgunHG3712 ]
+    - [ CMBeltMarineM16, WeaponRifleM16 ]
+    primaryWeaponChance: 1

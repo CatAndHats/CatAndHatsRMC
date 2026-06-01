@@ -298,6 +298,26 @@
 
 - type: entity
   parent: CMBeltMarine
+  id: RMCBeltMarineHC56
+  suffix: Filled, HC-56
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineRifleHC56
+      amount: 5
+
+- type: entity
+  parent: CMBeltMarine
+  id: RMCBeltMarineType19
+  suffix: Filled, Type 19
+  components:
+  - type: StorageFill
+    contents:
+    - id: RMCMagazineSMGType19
+      amount: 5
+
+- type: entity
+  parent: CMBeltMarine
   id: RMCBeltMarineMAR
   suffix: Filled, MAR30/40
   components:

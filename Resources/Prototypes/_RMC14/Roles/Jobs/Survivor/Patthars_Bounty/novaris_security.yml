@@ -1,0 +1,55 @@
+﻿- type: job
+  parent: CMSurvivorGoon
+  id: RMCSurvivorPattharsNovarisSecurity
+  name: rmc-job-name-survivor-novaris-security
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorPattharsNovarisSecurity
+  spawnMenuRoleName: Novaris Security (Patthars Survivor)
+  icon: "RMCJobIconNovarisSec"
+  hasIcon: true
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorGoon
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetPattharsNovarisSecurity
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Novaris
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+    - type: TacticalMapIcon
+      icon:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: goon_standard
+      background:
+        sprite: /Textures/_RMC14/Interface/map_blips.rsi
+        state: background_novaris
+
+- type: startingGear
+  id: RMCGearSurvivorPattharsNovarisSecurity
+  equipment:
+    jumpsuit: RMCJumpsuitLiaisonPattharsNovarisSecurity
+    shoes: RMCShoesJackboots
+    id: CMIDCardColonistSecurity
+    back: CMSatchelFillSurvivor
+    ears: RMCHeadsetDistressCorporateMisc
+    pocket2: RMCPouchMagazine
+    pocket1: RMCPouchSurvivalFill
+
+- type: entity
+  parent: RMCSurvivorPresetSecurity
+  id: RMCSurvivorPresetPattharsNovarisSecurity
+  name: patthars novaris security preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCHeadCapNovaris ]
+    - [ RMCHeadCapNovaris ]
+    - [ RMCHeadCapNovaris, RMCJacketWindbreakerNovaris ]
+    - [ RMCArmorHelmetMercenaryAHPS30, RMCArmorFreelancerVestBlack, RMCMaskGasCivilian ]

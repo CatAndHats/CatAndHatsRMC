@@ -232,10 +232,21 @@
 - type: entity
   parent: CMJumpsuitLiaisonBlue
   id: CMJumpsuitLiaisonBlueKutjevoGoon
+  categories: [HideSpawnMenu]
   components:
   - type: UniformAccessoryHolder
     startingAccessories:
     - RMCPatchWeYaBlack
+
+- type: entity
+  parent: CMJumpsuitLiaisonBlue
+  id: RMCJumpsuitLiaisonPattharsNovarisSecurity
+  categories: [HideSpawnMenu]
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchNovaris
+    - RMCTieBlack
 
 - type: entity
   parent: [CMJumpsuitLiaison, RMCAlternateFoldableUniformBase]

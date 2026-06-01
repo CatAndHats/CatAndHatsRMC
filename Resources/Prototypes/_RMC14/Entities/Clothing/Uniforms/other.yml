@@ -643,3 +643,22 @@
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/frontier.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/frontier.rsi
+
+# Halcyon
+- type: entity
+  parent: RMCJumpsuitVeteranPMCNoWebbing
+  id: RMCJumpsuitPMCHalcyon
+  name: Halcyon PMC fatigues
+  description: A set of red fatigues, designed for the security arm of Halcyon.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/halcyon_uniform.rsi
+
+- type: entity
+  parent: RMCJumpsuitPMCHalcyon
+  id: RMCJumpsuitPMCHalcyonPatch
+  categories: [HideSpawnMenu]
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchHalcyon
