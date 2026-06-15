@@ -239,6 +239,15 @@
     - RMCPatchWeYaBlack
 
 - type: entity
+  parent: CMJumpsuitLiaisonBlack
+  id: RMCJumpsuitLiaisonBlackExecutiveBodyguard
+  suffix: Executive Bodyguard
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchWeYaBlack
+
+- type: entity
   parent: CMJumpsuitLiaisonBlue
   id: RMCJumpsuitLiaisonPattharsNovarisSecurity
   categories: [HideSpawnMenu]
