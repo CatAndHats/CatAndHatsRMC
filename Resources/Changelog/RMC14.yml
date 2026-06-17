@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: Dygon
-  changes:
-  - message: Fixed invisible scouts and snipers being hit by friendly fire while invisible.
-    type: Fix
-  id: 2925
-  time: '2026-02-11T08:23:37.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9191
-- author: Vixting
-  changes:
-  - message: Fix UBF not having overlay
-    type: Add
-  id: 2926
-  time: '2026-02-11T08:23:10.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/9193
 - author: LeoKarz
   changes:
   - message: Added a cursor overlay for selected design and node type for designer
@@ -4577,5 +4563,21 @@
   id: 3424
   time: '2026-06-16T21:51:24.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/9831
+- author: kleinerstation13
+  changes:
+  - message: Fixed Type 19 using incorrect firing sound, not having inhand sprites,
+      not displaying the correct magazine sprite, and not being able to take correct
+      attachments.
+    type: Fix
+  id: 3425
+  time: '2026-06-16T22:54:49.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/9901
+- author: Vixting
+  changes:
+  - message: Heavy vehicle operator survivors now spawn with wheels inhand
+    type: Add
+  id: 3426
+  time: '2026-06-16T22:57:18.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/10183
 Name: RMC14
 Order: -1
