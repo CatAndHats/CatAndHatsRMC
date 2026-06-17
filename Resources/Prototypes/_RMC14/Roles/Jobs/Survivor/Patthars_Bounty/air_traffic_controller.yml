@@ -1,6 +1,6 @@
 ﻿- type: job
   parent: CMSurvivor
-  id: RMCSurvivorPattharsFactoryWorker
+  id: RMCSurvivorPattharsAirTrafficController
   name: rmc-job-name-survivor-air-traffic-controller
   description: cm-job-description-survivor
   playTimeTracker: CMJobSurvivor
