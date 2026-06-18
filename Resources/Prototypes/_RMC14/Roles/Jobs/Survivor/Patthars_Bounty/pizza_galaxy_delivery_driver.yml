@@ -11,7 +11,7 @@
     - type: Skills
       preset: RMCSkillPresetSurvivorPizzaGalaxyDriver
     - type: EquipSurvivorPreset
-      preset: RMCGearSurvivorPresetCivilian
+      preset: RMCSurvivorPresetCivilian
     - type: RMCSurvivor
     - type: MotionDetectorTracked
     - type: NpcFactionMember
