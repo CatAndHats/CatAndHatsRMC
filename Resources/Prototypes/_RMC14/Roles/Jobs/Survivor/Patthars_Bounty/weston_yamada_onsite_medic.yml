@@ -1,0 +1,44 @@
+﻿- type: job
+  parent: CMSurvivorDoctor
+  id: RMCSurvivorPattharsWestonYamadaOnsiteMedic
+  name: rmc-job-name-survivor-weston-yamada-onsite-medic
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorWestonYamadaOnsiteMedic
+  spawnMenuRoleName: Weston-Yamada Onsite Medic (Patthars Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorWestonYamadaOnsiteMedic
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetWestonYamadaOnsiteMedic
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+      - WeYa
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+  useLoadoutOfJob: CMSurvivorDoctor # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorBase
+  id: RMCGearSurvivorWestonYamadaOnsiteMedic
+  equipment:
+    gloves: CMHandsLatex
+    shoes: RMCBootsCorporate
+    pocket2: RMCPouchFirstResponderFill
+    back: CMSatchelMedical
+    ears: RMCHeadsetDistressWeYa
+
+- type: entity
+  parent: RMCSurvivorPresetDoctor
+  id: RMCGearSurvivorPresetWestonYamadaOnsiteMedic
+  name: weston-yamada onsite medic preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ RMCJumpsuitEMT, RMCHazardVestEMT, RMCMaskRebreather, RMCHeadCapWestonYamadaDark ]
+    - [ RMCJumpsuitEMTGreen, RMCCoatParamedicGreen, RMCArmorHelmetParamedic ]

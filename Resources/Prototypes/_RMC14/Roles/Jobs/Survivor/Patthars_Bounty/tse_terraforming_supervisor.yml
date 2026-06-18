@@ -1,0 +1,43 @@
+﻿- type: job
+  parent: CMSurvivorScientist
+  id: RMCSurvivorPattharsTSETerraformingSupervisor
+  name: rmc-job-name-survivor-tse-terraforming-supervisor
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivorScientist
+  startingGear: RMCGearSurvivorPattharsTSETerraformingSupervisor
+  spawnMenuRoleName: TSE Terraforming Supervisor (Patthars Survivor)
+  accessGroups:
+  - ColonistMedical
+  useLoadoutOfJob: CMSurvivorScientist # for inheritance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+      - TSE
+    - type: Skills
+      preset: RMCSkillPresetSurvivorAvantBiomedicalScientist
+    - type: EquipSurvivorPreset
+      preset: RMCSurvivorPresetScientist
+
+- type: startingGear
+  id: RMCGearSurvivorPattharsTSETerraformingSupervisor
+  equipment:
+    jumpsuit: RMCJumpsuitBlueWorkwear
+    outerClothing: RMCLabcoatScienceOpened
+    shoes: RMCBootsCorporate
+    back: RMCSatchelVirologyFill
+    mask: RMCMaskRebreather
+    pouch2: RMCPouchMedicalFill
+    ears: RMCHeadsetTSEPA
+    pocket1: RMCPouchSurvivalFill
+    pocket2: RMCPouchMedicalFill
+    id: RMCIDCardColonistScientist
+    head: RMCHeadBoonieRoyal
+    eyes: RMCGlassesReagentHUDGlasses
+  inhand:
+    - RMCAtmosScanner
+  storage:
+    back:
+    - RMCMRETSE

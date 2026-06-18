@@ -527,3 +527,54 @@ rmc-job-greeting-shivas-panic-room-engineer = You are an Engineer on the Colony!
   You are an Engineer working on 'Ifrit' for Weston-Yamada. This whole outbreak has been a giant mess, you and all other Company personnel ran to the Operations Panic Room, until you heard shooting outside and closed the shutters. You are running low on food, water and ammunition for the weapons. You remember that the xenonids seem to be able to see in the dark, as you saw one grab a co-worker trying to fix the generators after the power went out. In their attempts at trying to breach in, the so called 'xenonids' have tried attacking the shutters, but to no avail. They will soon try again. You must survive and find a way to contact Weston-Yamada.
 
   You are [bold][color=#51A16C][font size=16]NON-HOSTILE to the UNMC![/font][/color][/bold]
+
+# Patthar's Bounty
+
+rmc-job-name-survivor-tuktuk-driver = Tuk Tuk Driver
+
+rmc-job-name-survivor-hawker = Hawker
+
+rmc-job-name-survivor-factory-worker = Factory Worker
+
+rmc-job-name-survivor-air-traffic-controller = Air Traffic Controller
+
+rmc-job-name-survivor-office-worker = Office Worker
+
+rmc-job-name-survivor-novaris-executive = Novaris Executive
+
+rmc-job-name-survivor-weston-yamada-executive = Weston-Yamada Executive
+
+rmc-job-name-survivor-halcyon-executive = Halcyon Executive
+
+rmc-job-name-survivor-avant-executive = Avant Executive
+
+rmc-job-name-survivor-avant-doctor = Avant Doctor
+
+rmc-job-name-survivor-weston-yamada-onsite-medic = Weston-Yamada Onsite Medic
+
+rmc-job-name-survivor-back-alley-surgeon = Back-Alley Surgeon
+
+rmc-job-name-survivor-cargo-worker = Cargo Worker
+
+rmc-job-name-survivor-tartarus-miner = Tartarus Miner
+
+rmc-job-name-survivor-halcyon-shipwright = Halcyon Shipwright
+
+rmc-job-name-survivor-novaris-synthetic-repairman = Novaris Synthetic Repairman
+
+rmc-job-name-survivor-avant-biomedical-scientist = Avant Biomedical Scientist
+
+rmc-job-name-survivor-tartarus-mining-surveyor = Tartarus Mining Surveyor
+
+rmc-job-name-survivor-tse-terraforming-supervisor = TSE Terraforming Supervisor
+
+rmc-job-name-survivor-halcyon-gunsmith = Halcyon Gunsmith
+
+rmc-job-name-survivor-weston-yamada-security = Weston-Yamada Security
+
+rmc-job-name-survivor-novaris-security = Novaris Security
+
+rmc-job-name-survivor-halcyon-pmc = Halcyon PMC
+
+rmc-job-name-survivor-tsepa-inspector = TSEPA Inspector
+

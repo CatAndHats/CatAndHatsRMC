@@ -351,3 +351,26 @@
     bullet: 25
     explosionArmor: 50 # CLOTHING_ARMOR_ULTRAHIGH
     bio: 75 # CLOTHING_ARMOR_GIGAHIGHPLUS
+
+# Halcyon
+- type: entity
+  parent: CMArmorM4PMC
+  id: RMCArmorHC79Light
+  name: BATHYAL HC79 armour
+  description: A fairly light suit of armour, designed for Halcyon for their PMCs. It has a few pouches attached to the front.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/halcyon_armor.rsi
+  - type: CMArmor
+    melee: 15
+    bullet: 20 # CLOTHING_ARMOR_MEDIUM
+    bio: 20 # CLOTHING_ARMOR_MEDIUM
+    explosionArmor: 15 # CLOTHING_ARMOR_MEDIUMLOW
+  - type: ClothingSpeedModifier # SLOWDOWN_ARMOR_VERY_LIGHT
+    walkModifier: 0.897
+    sprintModifier: 0.897
+  - type: Storage
+    grid:
+    - 0,0,5,1 # 3 slots
+  - type: PointLight
+    color: "#f57373"

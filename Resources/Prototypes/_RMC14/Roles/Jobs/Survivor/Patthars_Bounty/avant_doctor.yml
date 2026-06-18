@@ -1,0 +1,43 @@
+﻿- type: job
+  parent: CMSurvivorDoctor
+  id: RMCSurvivorPattharsAvantDoctor
+  name: rmc-job-name-survivor-avant-doctor
+  description: cm-job-description-survivor
+  startingGear: RMCGearSurvivorAvantDoctor
+  spawnMenuRoleName: Avant Doctor (Patthars Survivor)
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      preset: RMCSkillPresetSurvivorAvantDoctor
+    - type: EquipSurvivorPreset
+      preset: RMCGearSurvivorPresetAvantDoctor
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+      - Avant
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+  useLoadoutOfJob: CMSurvivorDoctor # for inheritance
+
+- type: startingGear
+  parent: RMCGearSurvivorBase
+  id: RMCGearSurvivorAvantDoctor
+  equipment:
+    gloves: CMHandsLatex
+    shoes: RMCShoesWhite
+    pocket2: RMCPouchMedkit
+
+- type: entity
+  parent: RMCSurvivorPresetDoctor
+  id: RMCGearSurvivorPresetAvantDoctor
+  name: avant doctor preset
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityPreset
+    randomOutfits:
+    - [ CMJumpsuitLiaisonCorporateFormal, RMCLabcoat, CMMaskSterile, CMHeadCapSurgGreen ]
+    - [ CMScrubsPurple, CMMaskSterile, CMHeadCapSurgOrange ]
+

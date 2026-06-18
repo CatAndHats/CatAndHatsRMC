@@ -1,0 +1,37 @@
+﻿- type: job
+  parent: CMSurvivorScientist
+  id: RMCSurvivorPattharsHalcyonGunsmith
+  name: rmc-job-name-survivor-halcyon-gunsmith
+  description: cm-job-description-survivor
+  playTimeTracker: CMJobSurvivorScientist
+  startingGear: RMCGearSurvivorPattharsHalcyonGunsmith
+  spawnMenuRoleName: Halcyon Gunsmith (Patthars Survivor)
+  accessGroups:
+  - ColonistMedical
+  useLoadoutOfJob: CMSurvivorScientist # for inheritance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: NpcFactionMember
+      factions:
+      - Civilian
+      - Halcyon
+    - type: Skills
+      preset: RMCSkillPresetSurvivorHalcyonGunsmith
+
+- type: startingGear
+  id: RMCGearSurvivorPattharsHalcyonGunsmith
+  equipment:
+    jumpsuit: RMCJumpsuitLiaisonHalcyonBlack
+    outerClothing: RMCArmorBulletproof
+    shoes: RMCBootsCorporate
+    back: RMCSatchelVirologyFill
+    id: RMCIDCardHalcyon
+    ears: RMCHeadsetDistressHalcyon
+    pocket1: RMCPouchSurvivalBlackFilled
+    pocket2: RMCPouchMagazineFilledHC56
+    eyes: RMCGlassesReagentHUDGlasses
+    mask: RMCGogglesM1A1Ballistic
+    gloves: RMCHandsLeatherBlack
+  inhand:
+    - RMCWeaponRifleHC56

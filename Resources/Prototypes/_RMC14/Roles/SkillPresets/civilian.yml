@@ -153,3 +153,162 @@
       RMCSkillMedical: 1
       RMCSkillFireman: 2
       RMCSkillVehicles: 1
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorAirTrafficController
+  name: Survivor Air Traffic Controller
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillLeadership: 1
+      RMCSkillEngineer: 1
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorNovarisExecutive
+  name: Survivor Novaris Executive
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillEngineer: 2
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorHalcyonExecutive
+  name: Survivor Halcyon Executive
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillFirearms: 2
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorAvantExecutive
+  name: Survivor Avant Executive
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillMedical: 1
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorAvantDoctor
+  name: Survivor Avant Doctor
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+        RMCSkillMedical: 3
+        RMCSkillSurgery: 2
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorWestonYamadaOnsiteMedic
+  name: Survivor Weston-Yamada Onsite Medic
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+        RMCSkillMedical: 3
+        RMCSkillSurgery: 2
+        RMCSkillVehicles: 1
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorBackAlleySurgeon
+  name: Survivor back-alley surgeon
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+        RMCSkillMedical: 2
+        RMCSkillSurgery: 3
+        RMCSkillVehicles: 1
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorCargoWorker
+  name: Survivor Cargo Worker
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillEngineer: 2
+      RMCSkillPowerLoader: 2
+      RMCSkillConstruction: 2
+      RMCSkillVehicles: 1
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorTartarusMiner
+  name: Survivor Tartarus Miner
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillEngineer: 2
+      RMCSkillPowerLoader: 1
+      RMCSkillConstruction: 2
+      RMCSkillVehicles: 2
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorTartarusMiningSurveyor
+  name: Survivor Tartarus Mining Surveyor
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillConstruction: 1
+      RMCSkillMedical: 2
+      RMCSkillSurgery: 1
+      RMCSkillResearch: 1
+      RMCSkillEngineer: 2
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorAvantBiomedicalScientist
+  name: Survivor Avant Biomedical Scientist
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillMedical: 3
+      RMCSkillSurgery: 1
+      RMCSkillResearch: 1
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorHalcyonGunsmith
+  name: Survivor Halcyon Gunsmith
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillMedical: 2
+      RMCSkillSurgery: 1
+      RMCSkillResearch: 1
+      RMCSkillFirearms: 2
+
+- type: entity
+  parent: RMCSkillPresetSurvivor
+  id: RMCSkillPresetSurvivorTSEPAInspector
+  name: Survivor TSEPA Inspector
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: SkillPreset
+    skills:
+      RMCSkillEngineer: 1
+      RMCSkillMeleeWeapons: 1
+      RMCSkillConstruction: 2
+      RMCSkillMedical: 2
+      RMCSkillEndurance: 3
+      RMCSkillCqc: 3
+      RMCSkillFirearms: 2
+      RMCSkillFireman: 2
+      RMCSkillLeadership: 2

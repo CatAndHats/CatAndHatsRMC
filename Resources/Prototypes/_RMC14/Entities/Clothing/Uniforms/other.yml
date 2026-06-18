@@ -177,6 +177,14 @@
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/green_utility.rsi
 
 - type: entity
+  parent: RMCJumpsuitCivilianGreen
+  id: RMCJumpsuitCivilianGreenNovarisPatch
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchNovaris
+
+- type: entity
   parent: RMCJumpsuitCivilian
   id: RMCJumpsuitCivilianBlue
   name: blue utility uniform
@@ -197,6 +205,15 @@
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/red_utility.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Uniforms/Civilian/red_utility.rsi
+
+- type: entity
+  parent: RMCJumpsuitCivilianRed
+  id: RMCJumpsuitCivilianRedHalcyonPatch
+  categories: [HideSpawnMenu]
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchHalcyon
 
 - type: entity
   parent: RMCJumpsuitCivilian
@@ -626,3 +643,22 @@
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/frontier.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/frontier.rsi
+
+# Halcyon
+- type: entity
+  parent: RMCJumpsuitVeteranPMCNoWebbing
+  id: RMCJumpsuitPMCHalcyon
+  name: Halcyon PMC fatigues
+  description: A set of red fatigues, designed for the security arm of Halcyon.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/halcyon_uniform.rsi
+
+- type: entity
+  parent: RMCJumpsuitPMCHalcyon
+  id: RMCJumpsuitPMCHalcyonPatch
+  categories: [HideSpawnMenu]
+  components:
+  - type: UniformAccessoryHolder
+    startingAccessories:
+    - RMCPatchHalcyon
